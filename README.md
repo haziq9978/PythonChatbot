@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="https://twitter.com/AriffRhimin/status/1346133756696956928/photo/1" alt="Prof PC" />
+  <img src="https://github.com/haziq9978/PythonChatbot/blob/main/images/logo.jfif" alt="Prof PC" />
 
 &#xa0;
 
