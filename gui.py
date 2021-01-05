@@ -11,7 +11,7 @@ from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intents.json', 'r') as json_data:
+with open('qwer1234.json', 'r') as json_data:
     intents = json.load(json_data)
 
 FILE = "data.pth"
@@ -31,7 +31,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Prof PC"
 
 class ChatInterface(Frame):
 
@@ -92,8 +92,8 @@ class ChatInterface(Frame):
         help_option = Menu(menu, tearoff=0)
         menu.add_cascade(label="Help", menu=help_option)
         #help_option.add_command(label="Features", command=self.features_msg)
-        help_option.add_command(label="About PyBot", command=self.msg)
-        help_option.add_command(label="Develpoers", command=self.about)
+        help_option.add_command(label="About Prof PC", command=self.msg)
+        help_option.add_command(label="Developers", command=self.about)
 
         self.text_frame = Frame(self.master, bd=6)
         self.text_frame.pack(expand=True, fill=BOTH)
@@ -134,18 +134,18 @@ class ChatInterface(Frame):
         #t2.start()
         
 
-    def playResponce(self,responce):
+    def playResponse(self,response):
         x=pyttsx3.init()
-        #print(responce)
+        #print(response)
         li = []
-        if len(responce) > 100:
-            if responce.find('--') == -1:
-                b = responce.split('--')
+        if len(response) > 100:
+            if response.find('--') == -1:
+                b = response.split('--')
                 #print(b)
                  
         x.setProperty('rate',120)
         x.setProperty('volume',100)
-        x.say(responce)
+        x.say(response)
         x.runAndWait()
         #print("Played Successfully......")
         
@@ -171,10 +171,10 @@ class ChatInterface(Frame):
         exit()
 
     def msg(self):
-        tkinter.messagebox.showinfo("PyBOT v1.0",'PyBOT is a chatbot for answering python queries\nIt is based on retrival-based NLP using pythons NLTK tool-kit module\nGUI is based on Tkinter\nIt can answer questions regarding python language for new learners')
+        tkinter.messagebox.showinfo("Prof PC v1.0",'Prof PC is a chatbot for answering python queries\nIt is based on retrival-based NLP using pythons NLTK tool-kit module\nGUI is based on Tkinter\nIt can answer questions regarding PC or games requirements')
 
     def about(self):
-        tkinter.messagebox.showinfo("PyBOT Developers","1.Abhishek Ezhava\n2.Mayur Kadam\n3.Monis Khot\n4.Raj Vishwakarma")
+        tkinter.messagebox.showinfo("Prof PC Developers","1.Aiman Iskandar\n2.Ariff Rahimin\n3.Azri Azmi\n4.Haziq Izzuddin")
     
     def send_message_insert(self, message):
         user_input = self.entry_field.get()
@@ -200,7 +200,7 @@ class ChatInterface(Frame):
         if prob.item() > 0.75:
             for intent in intents['intents']:
                 if tag == intent["tag"]:
-                    pr="PyBot : " + random.choice(intent['responses']) + "\n"
+                    pr="Prof PC : " + random.choice(intent['responses']) + "\n"
                 
                     
         self.text_box.configure(state=NORMAL)
@@ -210,7 +210,7 @@ class ChatInterface(Frame):
         self.last_sent_label(str(time.strftime( "Last message sent: " + '%B %d, %Y' + ' at ' + '%I:%M %p')))
         self.entry_field.delete(0,END)
         time.sleep(0)
-        t2 = threading.Thread(target=self.playResponce, args=(user_input,))
+        t2 = threading.Thread(target=self.playResponse, args=(user_input,))
         t2.start()
         #return ob
 
@@ -365,5 +365,5 @@ root=Tk()
 
 a = ChatInterface(root)
 root.geometry(window_size)
-root.title("PyBot")
+root.title("Prof PC")
 root.mainloop()
