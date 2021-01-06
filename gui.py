@@ -11,7 +11,7 @@ from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('qwer1234.json', 'r') as json_data:
+with open('dataCombine.json', 'r') as json_data:
     intents = json.load(json_data)
 
 FILE = "data.pth"
@@ -92,6 +92,7 @@ class ChatInterface(Frame):
         help_option = Menu(menu, tearoff=0)
         menu.add_cascade(label="Help", menu=help_option)
         #help_option.add_command(label="Features", command=self.features_msg)
+        help_option.add_command(label="Tutorial", command=self.tutorial)
         help_option.add_command(label="About Prof PC", command=self.msg)
         help_option.add_command(label="Developers", command=self.about)
 
@@ -169,6 +170,9 @@ class ChatInterface(Frame):
 
     def chatexit(self):
         exit()
+
+    def tutorial(self):
+        tkinter.messagebox.showinfo("Example Queries", "1)Price: 2000 to 3000, Purpose: Gaming, OS: Windows\n\n2)Cyberpunk 2077 requirements")
 
     def msg(self):
         tkinter.messagebox.showinfo("Prof PC v1.0",'Prof PC is a chatbot for answering python queries\nIt is based on retrival-based NLP using pythons NLTK tool-kit module\nGUI is based on Tkinter\nIt can answer questions regarding PC or games requirements')
