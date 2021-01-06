@@ -25,7 +25,7 @@ tags = data['tags']
 model_state = data["model_state"]
 
 saved_username = ["You"]
-window_size="400x400"
+window_size="600x600"
 
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
@@ -145,7 +145,7 @@ class ChatInterface(Frame):
                 #print(b)
                  
         x.setProperty('rate',120)
-        x.setProperty('volume',100)
+        x.setProperty('volume',50)
         x.say(response)
         x.runAndWait()
         #print("Played Successfully......")
@@ -172,10 +172,10 @@ class ChatInterface(Frame):
         exit()
 
     def tutorial(self):
-        tkinter.messagebox.showinfo("Example Queries", "1)Price: 2000 to 3000, Purpose: Gaming, OS: Windows\n\n2)Cyberpunk 2077 requirements")
+        tkinter.messagebox.showinfo("Example Queries", "1)PC related query\nPrice: 2000 to 3000, Purpose: Gaming, OS: Windows\n\n2)Game requirement query:\nCyberpunk 2077 requirements")
 
     def msg(self):
-        tkinter.messagebox.showinfo("Prof PC v1.0",'Prof PC is a chatbot for answering python queries\nIt is based on retrival-based NLP using pythons NLTK tool-kit module\nGUI is based on Tkinter\nIt can answer questions regarding PC or games requirements')
+        tkinter.messagebox.showinfo("Prof PC v1.0",'Prof PC is a chatbot for answering user queries\nIt is based on retrival-based NLP using pythons NLTK tool-kit module.\nGUI is based on Tkinter.\nIt can answer questions regarding PC or games requirements')
 
     def about(self):
         tkinter.messagebox.showinfo("Prof PC Developers","1.Aiman Iskandar\n2.Ariff Rahimin\n3.Azri Azmi\n4.Haziq Izzuddin")
