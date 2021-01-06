@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 
-with open('qwer1234.json', 'r') as f:
+with open('dataCombine.json', 'r') as f:
     intents = json.load(f)
 
 all_words = []
