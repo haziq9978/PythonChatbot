@@ -5,7 +5,11 @@
 	"patterns": [
 "Price: 2000 to 3000, Purpose: Gaming, OS: Windows",
 "I want PC spec for gaming with price range 2000 to 3000 and using windows ",
-"I want PC spec for gaming with price range 2000 - 3000 and using windows "
+"I want PC spec for gaming with price range 2000 - 3000 and using windows ",
+"I want PC spec for gaming with low price",
+"Gaming spec for price below 3000",
+"Gaming spec for price above 2000",
+"Gaming spec for price 2000 to 3000"
 	],
 	"responses": [
 "\n---------------------------------------------------------\nPrice:2,351 00\nCPU:INTEL CORE i3-10100 LGA 1200 PROCESSOR\nGPU:ZOTAC GAMING GeForce GTX 1650 AMP Core GDDR6\nMotherboard:GIGABYTE H410M H LGA 1200 MOTHERBOARD\nStorage:APACER 2 5 SATA III AS340-240GB\nRam:XPG GAMMIX D20 3200MHZ 8GB DDR4 RAM\n---------------------------------------------------------\n",
@@ -18,7 +22,11 @@
 	"patterns": [
 "Price: 3001 to 5000, Purpose: Gaming, OS: Windows",
 "I want PC spec for gaming with price range 3001 to 5000 and using windows ",
-"I want PC spec for gaming with price range 3001 - 5000 and using windows "
+"I want PC spec for gaming with price range 3001 - 5000 and using windows ",
+"I want PC spec for gaming with reasonable price",
+"Gaming spec for price above 3000",
+"Gaming spec for price below 5000",
+"Gaming spec for price 3001 to 5000"
 	],
 	"responses": [
 "\n---------------------------------------------------------\nPrice:3,500 00\nCPU: AMD Ryzen 5 3500X\nGPU: MSI GEFORCE GTX 1660 SUPER VENTUS XS OC GPU\nMotherboard: MSI B550M A PRO AM4 MOTHERBOARD\nStorage: WD Caviar Blue 3 5 1TB 7200RPM SATA HDD\nRam: KLEVV BOLT X (8GBX2) DDR4 3200MHZ RAM\n---------------------------------------------------------\n",
@@ -31,7 +39,11 @@
 	"patterns": [
 "Price: 5001 to 7000, Purpose: Gaming, OS: Windows",
 "I want PC spec for gaming with price range 5001 to 7000 and using windows ",
-"I want PC spec for gaming with price range 5001 - 7000 and using windows "
+"I want PC spec for gaming with price range 5001 - 7000 and using windows ",
+"I want PC spec for gaming with affordable price",
+"Gaming spec for price below 7000",
+"Gaming spec for price above 5000",
+"Gaming spec for price 5001 to 7000"
 	],
 	"responses": [
 	"\n---------------------------------------------------------\nPrice:5,342 00\nCPU: AMD Ryzen 5 3600 (6 CORES and 12 THREADS)\nGPU: GALAX GeForce RTX 2080 OC\nMotherboard: GIGABYTE B550 AORUS PRO AM4 MOTHERBOARD\nStorage: Addlink S70 GEN3x4 NMVe 512GB\nRam: KLEVV BOLT XR 8GB x 2 DDR4 3600 GAMING MEMORY\n---------------------------------------------------------\n",
@@ -44,7 +56,11 @@
 	"patterns": [
 "Price: 1000 to 2000, Purpose: Working, OS: Windows",
 "I want PC spec for working with price range 1000 to 2000 and using windows ",
-"I want PC spec for working with price range 1000 - 2000 and using windows "
+"I want PC spec for working with price range 1000 - 2000 and using windows ",
+"I want PC spec for working with low price",
+"Working spec for price below 2000",
+"Working spec for price above 1000",
+"Working spec for price 1000 to 2000"
 	],
 	"responses": [
 "\n---------------------------------------------------------\nPrice:1,732 59\nCPU: AMD Ryzen 5 3400G Processor (4MB Cache, up to 4 20GHz)\nGPU: Integrated Graphics\nMotherboard: ASROCK H61M-VS4\nStorage: 500GB Hard Drive, 7200RPM, 3 5inch\nRam: 4GB DDR4 2666MHz UDIMM\n---------------------------------------------------------\n",
@@ -57,7 +73,11 @@
 	"patterns": [
 "Price: 2001 to 4000, Purpose: Working, OS: Windows",
 "I want PC spec for working with price range 2001 to 4000 and using windows ",
-"I want PC spec for working with price range 2001 - 4000 and using windows "
+"I want PC spec for working with price range 2001 - 4000 and using windows ",
+"I want PC spec for working with affordable price",
+"Working spec for price below 4000",
+"Working spec for price above 2000",
+"Working spec for price 2001 to 4000"
 	],
 	"responses": [
 "\n---------------------------------------------------------\nPrice:2,411 10\nCPU: Intel Core i5-9500 Processor ( 3 00GHz 9MB )\nGPU: N/A\nMotherboard: ASROCK H61M-VS4\nStorage: 1TB 7200\nRam: 4 0GB PC4-21300 DDR4 UDIMM 2666MHz\n---------------------------------------------------------\n",
@@ -69,7 +89,11 @@
 	"patterns": [
 "Price: 1000 to 2500, Purpose: Editing, OS: Windows",
 "I want PC spec for editing with price range 1000 to 2500 and using windows ",
-"I want PC spec for editing with price range 1000 - 2500 and using windows "
+"I want PC spec for editing with price range 1000 - 2500 and using windows ",
+"I want PC spec for editing with low price",
+"Editing spec for price below 2500",
+"Editing spec for price above 1000",
+"Editing spec for price 1000 to 2500"
 	],
 	"responses": [
 	"\n---------------------------------------------------------\nPrice:2,000 00\nCPU:Intel Core i3-9100F\nGPU:Colorful GeForce GTX1650 EX 4GD6-V\nMotherboard:Gigabyte H310M S2H\nStorage:PNY CS900 240GB\nRam:HyperX Fury 8GB 2666MHz DDR4\n---------------------------------------------------------\n",
@@ -81,7 +105,11 @@
 	"patterns": [
 "Price: 2501 to 4000, Purpose: Editing, OS: Windows",
 "I want PC spec for editing with price range 2501 to 4000 and using windows ",
-"I want PC spec for editing with price range 2501 - 4000 and using windows "
+"I want PC spec for editing with price range 2501 - 4000 and using windows ",
+"I want PC spec for editing with reasonable price",
+"Editing spec for price below 4000",
+"Editing spec for price above 2500",
+"Editing spec for price 2501 to 4000"
 	],
 	"responses": [
 "\n---------------------------------------------------------\nPrice:2,800 00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce GTX1650 Super NB 4G-V\nMotherboard: GALAX B460M\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4\n---------------------------------------------------------\n",
@@ -93,7 +121,11 @@
 	"patterns": [
 	"Price: 4001 to 5500, Purpose: Editing, OS: Windows",
 	"I want PC spec for edting with price range 4001 to 5500 and using windows ",
-	"I want PC spec for edting with price range 4001 - 5500 and using windows "
+	"I want PC spec for edting with price range 4001 - 5500 and using windows ",
+	"I want PC spec for editing with affordable price",
+	"Editing spec for price below 5500",
+	"Editing spec for price above 4000",
+	"Editing spec for price 4001 to 5500"
 	],
 	"responses": [
 	"\n---------------------------------------------------------\nPrice:4,500 00\nCPU: Intel Core i5-10400F\nGPU: Colorful GeForce RTX3060Ti 1 Ultra OC-V 8GB GDDR6\nMotherboard: Gigabyte B460M Gaming HD\nStorage: Seagate 1TB (Full Games)\nRam: HyperX Fury 16GB (8x2) 2666MHz DDR4\n---------------------------------------------------------\n",
@@ -105,7 +137,11 @@
 	"patterns": [
 	"Price: 3000 to 5000, Purpose: Working, OS: Mac",
 	"I want Mac spec for working with price range 3000 to 5000 ",
-	"I want Mac spec for working with price range 3000 - 5000 "
+	"I want Mac spec for working with price range 3000 - 5000 ",
+	"I want PC spec for working with reasonable price",
+	"Working Mac spec for price below 5500",
+	"Working Mac spec for price above 3000",
+	"Working Mac spec for price 3000 to 5000"
 	],
 	"responses": [
 	"\n---------------------------------------------------------\nMacBook Air\nPrice:4,749 00\nCPU: 2 3GHz dual-core 7th-generation Intel Core i5 processor\nGPU: Intel Iris Plus Graphics 640\nMotherboard: Apple Motherboard\nStorage: 256GB SSD storage\nRam: 8GB 2133MHz memory, configurable to 16GB\n---------------------------------------------------------\n",
@@ -118,7 +154,11 @@
 	"patterns": [
 	"Price: 5001 to 9000, Purpose: Working, OS: Mac",
 	"I want Mac spec for working with price range 5001 to 9000 ",
-	"I want Mac spec for working with price range 5001 - 9000 "
+	"I want Mac spec for working with price range 5001 - 9000 ",
+	"I want PC spec for working with reasonable price",
+	"Working Mac spec for price below 9000",
+	"Working Mac spec for price above 5000",
+	"Working Mac spec for price 5001 to 9000"
 	],
 	"responses": [
 	"\n---------------------------------------------------------\nPrice:5,599 00\nCPU: 3 6GHz quad-core 8th-generation Intel Core i3 processor\nGPU: Radeon Pro 555X with 2GB of GDDR5 memory\nMotherboard: Apple Motherboard\nStorage: 256GB SSD storage\nRam: 8GB 2400MHz DDR4 memory, configurable up to 32GB\n---------------------------------------------------------\n",
@@ -130,7 +170,11 @@
 	"tag": "eleven",
 	"patterns": [
 	"I want Mac spec for editing with price range 9001 to 13000 ",
-	"I want Mac spec for editing with price range 9001 - 13000 "
+	"I want Mac spec for editing with price range 9001 - 13000 ",
+	"I want Mac spec for editing with reasonable price",
+	"Editing Mac spec for price below 13000",
+	"Editing Mac spec for price above 9000",
+	"Editing Mac spec for price 9001 to 13000"
 	],
 	"responses": [
 	"\n---------------------------------------------------------\nMacBook Pro 16\nPrice:10,099 00\nCPU: 3 8GHz 8-core 10th-generation Intel Core i7 processor\nGPU: Radeon Pro 5500 XT with 8GB of GDDR6 memory\nMotherboard: Apple Motherboard\nStorage: 512GB SSD storage\nRam: 8GB 2666MHz DDR4 memory, configurable up to 128GB\n---------------------------------------------------------\n",
@@ -142,7 +186,11 @@
 	"tag": "twelve",
 	"patterns": [
 	"I want Mac spec for editing with price range 13001 to 20000 ",
-	"I want Mac spec for editing with price range 13001 - 20000 "
+	"I want Mac spec for editing with price range 13001 - 20000 ",
+	"I want Mac spec for editing with affordable price",
+	"Editing Mac spec for price below 20000",
+	"Editing Mac spec for price above 13000",
+	"Editing Mac spec for price 13001 to 20000"	
 	],
 	"responses": [
 	"\n---------------------------------------------------------\niMac Pro\nPrice:20,000 00\nCPU: 3 0GHz Intel Xeon W\nGPU: Radeon Pro Vega 56 graphics processor\nMotherboard: Apple Motherboard\nStorage: 1TB SSD\nRam: 32GB of 2666MHz DDR4 ECC memory\n---------------------------------------------------------\n"
