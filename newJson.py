@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 from nltk.tokenize import word_tokenize
-from pathlib import Path
 
 df3 = pd.read_excel('game_data.xlsx')
 df3 = df3.dropna()
