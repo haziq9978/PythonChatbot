@@ -3,7 +3,7 @@
 	{
 		"tag": "confused",
 		"patterns": [""],
-		"responses": ["I'm sorry, I couldn't understand that.","Pardon?"]
+		"responses": ["I'm sorry, I couldn't understand that.","Pardon?", "Can you rephrase that question?"]
 	},
 	  {
       "tag": "greeting",
@@ -11,6 +11,7 @@
         "Hi",
 	"Hey",
 	"Hello Prof",
+	"Hello",
 	"Prof"
       ],
       "responses": [
@@ -513,7 +514,7 @@
 	
 		
 		{"tag":"League of Legends",
-		"patterns":["League", "of", "Legends", "League of Legends requirements", "League of Legends"],
+		"patterns":["League", "Legends", "League of Legends requirements", "League of Legends"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: League of Legends\nCPU: 2 GHz processor (supporting SSE2 instruction set or higher) \nGPU: Shader version 2.0 capable video card \nRAM: 2 GB \nVRAM: 128 MB\n\nRECOMMENDED League of Legends\nCPU: 3 GHz Dual-Core processor \nGPU: Nvidia GeForce 8800 or AMD Radeon HD 5670 or equivalent video card \nRAM: 4 GB \nVRAM: 512 MB or higher\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -771,7 +772,7 @@
 	
 		
 		{"tag":"Yakuza: Like a Dragon",
-		"patterns":["Yakuza",  "Like", "a", "Dragon", "Yakuza: Like a Dragon requirements", "Yakuza: Like a Dragon"],
+		"patterns":["Yakuza",  "Like", "Dragon", "Yakuza: Like a Dragon requirements", "Yakuza: Like a Dragon"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Yakuza: Like a Dragon\nCPU: Intel Core i5-3470 | AMD FX-8350 \nGPU: Nvidia GeForce GTX 660, 2 GB | AMD Radeon HD 7870, 2 GB \nRAM: 8 GB \nVRAM: 2048 MB\n\nRECOMMENDED Yakuza: Like a Dragon\nCPU: Intel Core i7-6700 | AMD Ryzen 5 1400 \nGPU: Nvidia GeForce GTX 1060, 3 GB | AMD Radeon RX 580, 4 GB \nRAM: 8 GB \nVRAM: 3 GB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
