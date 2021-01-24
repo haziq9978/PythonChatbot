@@ -12,7 +12,8 @@
 	"Hey",
 	"Hello Prof",
 	"Hello",
-	"Prof"
+	"Prof",
+	"sup"
       ],
       "responses": [
         "Yes, can i help you?",
@@ -189,7 +190,6 @@
 	"Price: 5001 to 9000, Purpose: Working, OS: Mac",
 	"I want Mac spec for working with price range 5001 to 9000 ",
 	"I want Mac spec for working with price range 5001 - 9000 ",
-	"I want PC spec for working with reasonable price",
 	"Working Mac spec for price below 9000",
 	"Working Mac spec for price above 5000",
 	"Working Mac spec for price 5001 to 9000"
@@ -268,7 +268,7 @@
 	
 		
 		{"tag":"Battlefield V",
-		"patterns":["Battlefield", "V", "Battlefield V requirements", "Battlefield V"],
+		"patterns":["Battlefield", "Battlefield V requirements", "Battlefield V"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Battlefield V\nCPU: Core i5 6600K / AMD FX-8350 \nGPU: AMD Radeon HD 7850 / nVidia GeForce GTX 660 \nRAM: 8 GB \nVRAM: 2 GB\n\nRECOMMENDED Battlefield V\nCPU: Intel Core i7 4790 / AMD Ryzen 3 1300X or equivalent \nGPU: AMD Radeon RX 580 / 6GB NVIDIA GeForce GTX 1060 \nRAM: 12 GB \nVRAM: 8GB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -286,13 +286,13 @@
 	
 		
 		{"tag":"Burnout Paradise: The Ultimate Box",
-		"patterns":["Burnout", "Paradise",  "The", "Ultimate", "Box", "Burnout Paradise: The Ultimate Box requirements", "Burnout Paradise: The Ultimate Box"],
+		"patterns":["Burnout", "Paradise", "Ultimate", "Box", "Burnout Paradise: The Ultimate Box requirements", "Burnout Paradise: The Ultimate Box"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Burnout Paradise: The Ultimate Box\nCPU: Intel i3 2120 @ 3.3GHz or Phenom II X4 965 @ 3.40GHz \nGPU: NVidia GTS 450 or ATI Radeon HD 5750 \nRAM: 4 GB \nVRAM: -\n\nRECOMMENDED Burnout Paradise: The Ultimate Box\nCPU: Intel i5 3570K or AMD Ryzen 3 1300X \nGPU: Nvidia GTX 750 Ti or AMD Radeon R7 265 \nRAM: 8 GB \nVRAM: -\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
 		
 		{"tag":"Call of Duty: Black Ops 4",
-		"patterns":["Call", "of", "Duty",  "Black", "Ops",  "Call of Duty: Black Ops 4 requirements", "Call of Duty: Black Ops 4"],
+		"patterns":["Call", "Duty",  "Black", "Ops",  "Call of Duty: Black Ops 4 requirements", "Call of Duty: Black Ops 4"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Call of Duty: Black Ops 4\nCPU: Pentium 4 2.4 GHz/ Athlon 64 2800+ (Intel & Athlon 1.8 GHz Dual Core or better supported) \nGPU: 128MB 3d Hardware Accelerated card required-100% DirectX 9.0c compatible and latest drivers (NVIDIA GeForce 6600+ / ATI Radeon 9800 Pro+) \nRAM: 512 MB \nVRAM:\n\nRECOMMENDED Call of Duty: Black Ops 4\nCPU: 2.4 GHz dual core or better \nGPU: 6 GB \nRAM: 3.0 Shader Support recommended. Nvidia Geforce 7800 or better or ATI Radeon X1800 or better \nVRAM: -\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -304,7 +304,7 @@
 	
 		
 		{"tag":"Counter-Strike: Global Offensive",
-		"patterns":["Counter-Strike",  "Global", "Offensive", "Counter-Strike: Global Offensive requirements", "Counter-Strike: Global Offensive"],
+		"patterns":["CSGO", "Counter-Strike",  "Global", "Offensive", "Counter-Strike: Global Offensive requirements", "Counter-Strike: Global Offensive"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Counter-Strike: Global Offensive\nCPU: Intel� Core� 2 Duo E6600 or AMD Phenom� X3 8750 processor or better \nGPU: Video card must be 256 MB or more and should be a DirectX 9-compatible with support for Pixel Shader 3.0 \nRAM: 2 GB \nVRAM: -\n\nRECOMMENDED Counter-Strike: Global Offensive\nCPU: Ryzen 5 CPU or Equivalent/Intel Core i5 3570K or Equivalent \nGPU: Nvidia GTX 750 Ti or AMD Radeon R7 265 \nRAM: 4 GB \nVRAM: -\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -364,7 +364,7 @@
 	
 		
 		{"tag":"Elder Scrolls V: Skyrim",
-		"patterns":["Elder", "Scrolls", "V",  "Skyrim", "Elder Scrolls V: Skyrim requirements", "Elder Scrolls V: Skyrim"],
+		"patterns":["Elder", "Scrolls", "Skyrim", "Elder Scrolls V: Skyrim requirements", "Elder Scrolls V: Skyrim"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Elder Scrolls V: Skyrim\nCPU: Intel Core i5-6600K or AMD Ryzen 5 1400 or better \nGPU: Nvidia GeForce GTX 970 / AMD RX 480 8GB or better \nRAM: 8 GB \nVRAM: 4 GB\n\nRECOMMENDED Elder Scrolls V: Skyrim\nCPU: Intel Core i7-4790 or AMD Ryzen 5 1500X \nGPU: Nvidia GeForce GTX 1070 8GB / AMD RX Vega 56 8GB \nRAM: 8 GB \nVRAM: 8 GB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -418,7 +418,7 @@
 	
 		
 		{"tag":"Grand Theft Auto V",
-		"patterns":["Grand", "Theft", "Auto", "V", "Grand Theft Auto V requirements", "Grand Theft Auto V"],
+		"patterns":["Grand", "Theft", "Auto", "GTA", "Grand Theft Auto V requirements", "Grand Theft Auto V"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Grand Theft Auto V\nCPU: Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz \nGPU: NVIDIA 9800 GT 1GB / AMD HD 4870 \nRAM: 4 GB \nVRAM: 1 GB\n\nRECOMMENDED Grand Theft Auto V\nCPU: Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs) \nGPU: NVIDIA GTX 660 2GB / AMD HD 7870 2GB \nRAM: 8 GB \nVRAM: 2 GB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -532,7 +532,7 @@
 	
 		
 		{"tag":"Lego Batman 3: Beyond Gotham",
-		"patterns":["Lego", "Batman",   "Beyond", "Gotham", "Lego Batman 3: Beyond Gotham requirements", "Lego Batman 3: Beyond Gotham"],
+		"patterns":["Lego", "Beyond", "Gotham", "Lego Batman 3: Beyond Gotham requirements", "Lego Batman 3: Beyond Gotham"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Lego Batman 3: Beyond Gotham\nCPU: Intel Core 2 Duo or equivalent AMD dual core \nGPU: NVIDIA GeForce 7600GS or ATI Radeon 1950 \nRAM: 2 GB \nVRAM: 256 MB\n\nRECOMMENDED Lego Batman 3: Beyond Gotham\nCPU: Intel i5, 4 x 2.6 GHz or AMD equivalent \nGPU: NVIDIA GeForce GTX 480 or ATI Radeon HD 5850 or better \nRAM: 4 GB \nVRAM: 1 GB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -550,7 +550,7 @@
 	
 		
 		{"tag":"Metal Gear Solid V: The Phantom Pain",
-		"patterns":["Metal", "Gear", "Solid", "V",  "The", "Phantom", "Pain", "Metal Gear Solid V: The Phantom Pain requirements", "Metal Gear Solid V: The Phantom Pain"],
+		"patterns":["Metal", "Gear", "Solid", "Phantom", "Pain", "Metal Gear Solid V: The Phantom Pain requirements", "Metal Gear Solid V: The Phantom Pain"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Metal Gear Solid V: The Phantom Pain\nCPU: Intel Core i5-4460 (3.40 GHz) or better; Quad-core or better \nGPU: NVIDIA GeForce GTX 650 or better (DirectX 11 card Required) \nRAM: 4 GB \nVRAM: 2 GB\n\nRECOMMENDED Metal Gear Solid V: The Phantom Pain\nCPU: Intel Core i7-4790 (3.60GHz) or better; Quad-core or better \nGPU: NVIDIA GeForce GTX 760 (DirectX 11 graphic card required) \nRAM: 8 GB \nVRAM: 2 GB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -598,7 +598,7 @@
 	
 		
 		{"tag":"Ori and the Will of the Wisps",
-		"patterns":["Ori", "and", "the", "Will", "of", "the", "Wisps", "Ori and the Will of the Wisps requirements", "Ori and the Will of the Wisps"],
+		"patterns":["Ori", "and", "Will", "Wisps", "Ori and the Will of the Wisps requirements", "Ori and the Will of the Wisps"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Ori and the Will of the Wisps\nCPU: AMD Athlon X4 | Intel Core i5 4460 \nGPU: Nvidia GTX 950 | AMD R7 370 \nRAM: 8 GB \nVRAM: 2048 MB\n\nRECOMMENDED Ori and the Will of the Wisps\nCPU: AMD Ryzen 3 | Intel i5 Skylake \nGPU: Nvidia GTX 970 | AMD RX 570 \nRAM: 8 GB \nVRAM: 4096 MB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -616,7 +616,7 @@
 	
 		
 		{"tag":"Path of Exile 2",
-		"patterns":["Path", "of", "Exile",  "Path of Exile 2 requirements", "Path of Exile 2"],
+		"patterns":["Path", "Exile",  "Path of Exile 2 requirements", "Path of Exile 2"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Path of Exile 2\nCPU: Intel Core i3-2115C 2.0GHz / AMD Athlon II X3 455 \nGPU: AMD Radeon R5 340 (OEM) or NVIDIA GeForce GT 740 \nRAM: 4 GB \nVRAM: 1024 MB\n\nRECOMMENDED Path of Exile 2\nCPU: Intel Core i5-750S 2.4GHz / AMD Phenom II X4 965 \nGPU: AMD Radeon R7 360X or NVIDIA GeForce GTX 750 Ti \nRAM: 6 GB \nVRAM: 2 GB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -628,7 +628,7 @@
 	
 		
 		{"tag":"PlayerUnknown's Battlegrounds (PUBG)",
-		"patterns":["PlayerUnknown", "Battlegrounds", "(", "PUBG", ")", "PlayerUnknown's Battlegrounds (PUBG) requirements", "PlayerUnknown's Battlegrounds (PUBG)"],
+		"patterns":["PlayerUnknown", "Battlegrounds", "PUBG", "PlayerUnknown's Battlegrounds (PUBG) requirements", "PlayerUnknown's Battlegrounds (PUBG)"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: PlayerUnknown's Battlegrounds (PUBG)\nCPU: Intel Core i5-4430 / AMD FX-6300 \nGPU: NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 \nRAM: 8 GB \nVRAM: 2 GB\n\nRECOMMENDED PlayerUnknown's Battlegrounds (PUBG)\nCPU: Intel Core i5-6600K / AMD Ryzen 5 1600 \nGPU: NVIDIA GeForce GTX 1060 3GB / AMD Radeon RX 580 \nRAM: 16 GB \nVRAM: 3 GB (4 GB AMD)\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -676,7 +676,7 @@
 	
 		
 		{"tag":"Rise of the Tomb Raider",
-		"patterns":["Rise", "of", "the", "Tomb", "Raider", "Rise of the Tomb Raider requirements", "Rise of the Tomb Raider"],
+		"patterns":["Rise","Tomb", "Raider", "Rise of the Tomb Raider requirements", "Rise of the Tomb Raider"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: Rise of the Tomb Raider\nCPU: Intel Core i3-2100 or AMD equivalent \nGPU: NVIDIA GTX 650 2GB or AMD HD7770 \nRAM: 6 GB \nVRAM: 2 GB\n\nRECOMMENDED Rise of the Tomb Raider\nCPU: Intel Core i7-3770K \nGPU: NVIDIA GTX 980Ti 2560x1440 or NVIDIA GTX 970 \nRAM: 8 GB \nVRAM: 4096 MB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -754,7 +754,7 @@
 	
 		
 		{"tag":"World of Warcraft",
-		"patterns":["World", "of", "Warcraft", "World of Warcraft requirements", "World of Warcraft"],
+		"patterns":["World", "Warcraft", "World of Warcraft requirements", "World of Warcraft"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: World of Warcraft\nCPU: Intel Core i5-760 or AMD FX-8100 or later \nGPU: NVIDIA GeForce GTX 560 2GB or AMD Radeon HD 7850 2GB or Intel HD Graphics 530 \nRAM: 4 GB \nVRAM: 2 GB\n\nRECOMMENDED World of Warcraft\nCPU: Intel Core i7-4770 or AMD FX-8310 or later \nGPU: NVIDIA GeForce GTX 960 or AMD Radeon R9 280 or later \nRAM: 8 GB \nVRAM: 4 GB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
@@ -762,12 +762,6 @@
 		{"tag":"XCOM 2",
 		"patterns":["XCOM",  "XCOM 2 requirements", "XCOM 2"],
 		"responses":["\n---------------------------------------------------------\nMINIMUM: XCOM 2\nCPU: Intel Core 2 Duo E4700 2.6 GHz or AMD Phenom 9950 Quad Core 2.6 GHz \nGPU: ATI Radeon HD 5770, 1GB NVIDIA GeForce GTX 460 or better \nRAM: 4 GB \nVRAM: 1 GB\n\nRECOMMENDED XCOM 2\nCPU: 3.0 GHz Quad Core \nGPU: ATI Radeon HD 7970, 2GB NVIDIA GeForce GTX 770 or better \nRAM: 8 GB \nVRAM: 2 GB\n---------------------------------------------------------\n"],
-		"context": [""]},
-	
-		
-		{"tag":"Yakuza Kiwami 2",
-		"patterns":["Yakuza", "Kiwami",  "Yakuza Kiwami 2 requirements", "Yakuza Kiwami 2"],
-		"responses":["\n---------------------------------------------------------\nMINIMUM: Yakuza Kiwami 2\nCPU: Intel Core i5-3470, 3.2 GHz / AMD Ryzen 3 1200, 3.1 GHz \nGPU: GeForce GTX 660, 2 GB / Radeon HD 7870, 2 GB \nRAM: 4 GB \nVRAM: 2048 MB\n\nRECOMMENDED Yakuza Kiwami 2\nCPU: Intel Core i7-6700, 3.4 GHz / AMD Ryzen 7 1700, 3.7 GHz \nGPU: GeForce GTX 1070, 8 GB / Radeon RX Vega 56, 8GB \nRAM: 16 GB \nVRAM: 8192 MB\n---------------------------------------------------------\n"],
 		"context": [""]},
 	
 		
